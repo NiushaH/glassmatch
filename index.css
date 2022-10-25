@@ -1,0 +1,64 @@
+.card {
+    text-align: center;
+    border: grey solid 1px;
+    padding: 1rem;
+    width: 25rem;
+    height: 40rem;
+    display: inline-grid;
+    margin: 1rem 2rem;
+    box-shadow: 3px 4px #185281
+}
+
+#frames {
+    justify-self: center;
+    height: 10rem;
+    width: 15rem;
+}
+
+/* #ratings-container{
+    color: DarkSlateBlue;
+} */
+
+img {
+    border-radius: 4px;
+    display: block;
+    justify-self: center;
+    height: 10rem;
+    width: 15rem;
+    }
+
+/* Button */
+
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+button,
+.button {
+-moz-appearance: none;
+-webkit-appearance: none;
+-ms-appearance: none;
+appearance: none;
+-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+background-color: transparent;
+border-radius: 4px;
+border: 0;
+box-shadow: inset 0 0 0 2px #585858;
+color: #585858 !important;
+cursor: pointer;
+display: inline-block;
+font-size: 0.8em;
+font-weight: 900;
+height: 3.5em;
+letter-spacing: 0.35em;
+line-height: 3.45em;
+overflow: hidden;
+padding: 0 1.25em 0 1.6em;
+text-align: center;
+text-decoration: none;
+text-overflow: ellipsis;
+text-transform: uppercase;
+white-space: nowrap;
+}

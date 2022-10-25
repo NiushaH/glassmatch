@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Glass Match</title>
+</head>
+<body>
+    <h1 style="text-align: center">Glass Match SPA</h1>
+
+    <form id="add-frame" class="add-frame" method="post">
+        <h2>DONATE A FRAME</h2>
+        <input id="id" type="hidden" name="frame[id]" value="@frame.id" />
+        <input id="name" type="text" name="frame[name]" value="" placeholder="Name This Frame" />
+        <input id="style" type="text" name="frame[style]" value="" placeholder="Describe the Frame Style" />
+        <input id="condition" type="text" name="frame[condition]" value="" placeholder="Like New, Fair, Poor" />
+        <input id="image_url" type="text" name="frame[image_url]" value="" placeholder="https://res.cloudinary.com/cliclime-com/image/upload/c_fill,f_webp,fl_lossy,q_auto,w_1920,c_pad/i30lcqjadv38fpgzziqy.jpg" />
+        <button id="donate-frame-btn" type="submit" name="button" value="Submit">Donate My Frame</button>
+    </form>
+
+    <div id="update-a-frame" class="update"></div>
+    <div id="delete-a-frame" class="delete"></div>
+    <div id="add-a-rating" class="ratings" style="margin: 2em"></div>
+    <div id="frame-ratings-container" class="all-ratings-for-frame" style="margin: 2em"></div>
+    <div id="frames-container" class="donated" style="margin: 2em"></div>
+</body>
+<footer>
+    <script type="text/javascript" src="index.js"></script>
+</footer>
+</html>
